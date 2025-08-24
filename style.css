@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; padding: 20px; background: #fdf6f0; }
+h2 { color: #d6336c; }
+form { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
+input, button { display: block; width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; }
+button { background-color: #d6336c; color: #fff; border: none; cursor: pointer; }
+button:hover { background-color: #a82a57; }
+#result { margin-top: 15px; font-weight: bold; }
+video, canvas, #preview { display: block; margin-bottom: 15px; max-width: 100%; border-radius: 10px; }
+#preview { border: 2px dashed #d6336c; padding: 5px; }
+

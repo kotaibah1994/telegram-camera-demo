@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>نموذج تعليمي كاميرا + Telegram</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>نموذج تعليمي: كاميرا + Telegram</h2>
+<form id="eduForm">
+<label>الاسم: <input type="text" name="name" required></label>
+<label>العمر: <input type="number" name="age" required></label>
+<video id="video" autoplay playsinline></video>
+<button type="button" id="captureBtn">التقاط الصورة</button>
+<canvas id="canvas" style="display:none;"></canvas>
+<img id="preview" alt="معاينة الصورة" style="display:none;">
+<button type="submit">إرسال البيانات والصورة</button>
+</form>
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
